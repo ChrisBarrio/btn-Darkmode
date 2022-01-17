@@ -18,7 +18,9 @@ else{
 
 if(localStorage.getItem('dark-mode') === 'true'/*transformar a string el booleano*/){
     document.body.classList.add('dark');
-}
+    btnSwitch.classList.add('active');
+  }
 else{
-    document.body.classList.remove('dark')
+    document.body.classList.remove('dark');
+    btnSwitch.classList.remove('active');
 }
