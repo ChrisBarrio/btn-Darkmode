@@ -27,8 +27,11 @@
         color: #fff;
     }
     body.dark .card .botones .boton.secundario{
-        background-color:rgb(110, 109, 109);
+        background-color:#686769;
     }
+    body.dark .card .botones .boton.boton.primario{
+      background-color:#3700B3;
+  }
     
 
 
@@ -213,7 +216,7 @@ span{
   }
   
   .grid .card .botones .boton.primario {
-    background: #3E60E9;
+    background: #3760E9;
   }
   
   .grid .card .botones .boton.primario:hover {
